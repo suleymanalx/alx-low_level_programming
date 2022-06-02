@@ -6,10 +6,10 @@
  * Return: it will return 0 at successful completion
  */
 #include <stdio.h>
-int main (void)
+int main(void)
 {
 /* Print Message */
-printf("with proper grammar, but the outcome is a piece of art,");
+printf("with proper grammar, but the outcome is a piece of art,\n");
 /* return 0 */
 return (0);
 
