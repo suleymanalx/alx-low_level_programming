@@ -12,13 +12,13 @@ int main(void)
 {
 int digit;
 char letter;
-for (letter = 0; letter < 10; letter++)
-{
-putchar(letter);
-}
-for (digit = 'a'; digit <= 'f'; digit++)
+for (digit = 0; digit <= 9; digit++)
 {
 putchar(digit);
+}
+for (letter = 'a'; letter <= 'f'; letter++)
+{
+putchar(letter);
 }
 putchar('\n');
 
