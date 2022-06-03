@@ -13,7 +13,7 @@ int main(void)
 int i = 0;
 while (i < 26)
 {
-putchar (97 + i);
+putchar (97 + i++);
 }
 putchar ('\n');
 
