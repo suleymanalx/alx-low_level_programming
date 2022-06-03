@@ -12,7 +12,7 @@ int main(void)
 {
 int digit;
 char letter;
-for (digit = 0; digit <= 9; digit++)
+for (digit = 48; digit < 58; digit++)
 {
 putchar(digit);
 }
