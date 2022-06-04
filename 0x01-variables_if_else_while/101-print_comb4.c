@@ -10,25 +10,23 @@
 
 int main(void)
 {
-int i, j, k;
-for (i = 48; i < 56; i++)
+int p, q;
+for (p = 0; p <= 98; p++)
 {
-for (j = i + 1; j < 57; j++)
+for (q = p + 1; q <= 99; q++)
 {
-for (k = j + 1; j < 58; j++)
-{
-putchar(i);
-putchar(j);
-putchar(k);
-if (i != 55)
-{
+putchar((p / 10) + '0');
+putchar((p % 10) + '0');
+putchar(' ');
+putchar((q / 10) + '0');
+putchar((q % 10) + '0');
+
+if (p == 98 && q == 99)
+continue;
 putchar(',');
 putchar(' ');
 }
 }
-}
-}
-putchar('\n');
-
+putchar ('\n');
 return (0);
 }
