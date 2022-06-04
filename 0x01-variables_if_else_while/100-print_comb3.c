@@ -10,10 +10,15 @@
 
 int main(void)
 {
-char letter;
-for (letter = 'z'; letter >= 'a'; letter--)
+int i, j;
+for (i = 48; i < 57; i++)
 {
-putchar(letter);
+for (j = i + 1; j < 58; j++)
+{
+putchar(i);
+putchar(j);
+putchar(' ');
+}
 }
 putchar('\n');
 
