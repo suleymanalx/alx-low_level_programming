@@ -17,7 +17,8 @@ for (j = i + 1; j < 58; j++)
 {
 putchar(i);
 putchar(j);
-putchar(' ');
+if(i != 8)
+putchar(', ');
 }
 }
 putchar('\n');
