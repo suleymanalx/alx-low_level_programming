@@ -24,7 +24,7 @@ putchar((p) + '0');
 putchar((q) + '0');
 putchar((r) + '0');
 
-if (p == 8 && q == 9)
+if (p == 7 && q == 8 && r == 9)
 continue;
 putchar(',');
 putchar(' ');
