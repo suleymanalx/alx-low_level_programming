@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * main - Main Function
  * void - main function does not accept any parameter
