@@ -6,7 +6,7 @@
  * Description: prints out character on consule using write
  * Return: _putchar returns 0 at successful compeletion
  */
-int _putchar(char c)
+int _putchar(void)
 {
-return (write(1, c, 1));
+return (write(1, "_putchar", 7));
 }
