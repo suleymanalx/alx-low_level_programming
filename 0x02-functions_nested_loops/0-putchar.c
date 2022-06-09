@@ -6,7 +6,7 @@
  * Description: prints out "_putchar" text on consule using write
  * Return: putchar returns 0 at successful compeletion
  */
-int main (void)
+int main(void)
 {
 _putchar('_');
 _putchar('p');
