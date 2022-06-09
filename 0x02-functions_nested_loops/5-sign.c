@@ -2,7 +2,7 @@
 /**
  * print_sign -  Function
  * @n - print_sign function accepts a int parameter
- *
+ * n - input digit as parameter
  * Description: prints out +, 0 or - based on the digit value
  * Return: returns 1, 0 or -1 base on the  condition
  */
