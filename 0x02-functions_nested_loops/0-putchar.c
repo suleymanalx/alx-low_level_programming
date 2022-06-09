@@ -1,12 +1,22 @@
-#include <unistd.h>
+#include "main.h"
 /**
- * _putchar -  Function
- * char - _putchar function accepts char as parameter
+ * putchar -  Function
+ * char - putchar function does not accepts a parameter
  *
- * Description: prints out character on consule using write
- * Return: _putchar returns 0 at successful compeletion
+ * Description: prints out "_putchar" text on consule using write
+ * Return: putchar returns 0 at successful compeletion
  */
-int _putchar(void)
+void putchar (void)
 {
-return (write(1, "_putchar", 7));
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('\n');
+
+return (0);
 }

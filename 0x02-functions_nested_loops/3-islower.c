@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * _islower -  Function
  * char - _islower function accepts char as parameter

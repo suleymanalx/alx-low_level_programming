@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * print_alphabet -  Function
  * void - print_alphabet function does not accepts a parameter
