@@ -1,13 +1,13 @@
 #include "main.h"
 /**
- * sign -  Function
- * @n - sign function accepts a int parameter
+ * print_sign -  Function
+ * @n - print_sign function accepts a int parameter
  *
  * Description: prints out +, 0 or - based on the digit value
  * Return: returns 1, 0 or -1 base on the  condition
  */
 
-int print_sign (int n)
+int print_sign(int n)
 {
 if (n > 0)
 {
