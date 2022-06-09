@@ -1,21 +1,12 @@
-#include "main.h"
+#include <unistd.h>
 /**
- * main - Main Function
- * void - main function does not accept any parameter
+ * _putchar -  Function
+ * char - _putchar function accepts char as parameter
  *
- * Description: prints out digits on consule using _putchar()
- * Return: main returns 0 at successful compeletion
+ * Description: prints out character on consule using write
+ * Return: _putchar returns 0 at successful compeletion
  */
-int main(void)
+int _putchar(char c)
 {
-_putchar('_');
-_putchar('p');
-_putchar('u');
-_putchar('t');
-_putchar('c');
-_putchar('h');
-_putchar('a');
-_putchar('r');
-_putchar('\n');
-return (0);
+return (write(1,c,1));
 }
