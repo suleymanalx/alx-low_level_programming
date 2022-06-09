@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * putchar -  Function
+ * main -  Function
  * char - putchar function does not accepts a parameter
  *
  * Description: prints out "_putchar" text on consule using write
