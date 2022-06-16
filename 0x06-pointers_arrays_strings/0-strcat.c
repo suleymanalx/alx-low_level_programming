@@ -7,7 +7,7 @@
  * @copyright Copyright (c) 2022
  */
 #include <stdio.h>
-char *_strcat(char *dest, char *src)
+char *_strcat(char *dest, const char *src)
 {
 size_t dest_len = strlen(dest);
 size_t n = strlen(src);
